@@ -1,0 +1,324 @@
+.body{
+    background-color: #f7f7f7;
+}
+
+.question{
+    width: 75%;
+    text-align: start;
+    padding: 10px;
+    color: black;
+}
+
+.selected_ques{
+    font-family: Rubik;
+    font: bolder;
+    width: 75%;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 3px;
+    background-color: #96e5ae;
+
+    background:
+        /*linear-gradient(to right, black 1px, transparent 1px) 0 0,*/
+        linear-gradient(to right, black 1px, transparent 2px) 0 100%,
+        linear-gradient(to left, black 1px, transparent 2px) 100% 0,
+        /*linear-gradient(to left, black 1px, transparent 2px) 100% 100%,*/
+        /*linear-gradient(to bottom, black 1px, transparent 2px) 0 0,*/
+        linear-gradient(to bottom, black 1px, transparent 2px) 100% 0,
+        linear-gradient(to top, black 1px, transparent 2px) 0 100%;
+        /*linear-gradient(to top, black 1px, transparent 2px) 100% 100%;*/
+
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+}
+
+.ques-div{
+    height: 15%;
+    width: 75%;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 15px;
+}
+
+.comment{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.comm_input{
+    height: 35px;
+    border-radius: 10px;
+    border-color: lavender;
+}
+
+.comment-div{
+    height: 15%;
+}
+
+.comm{
+    height: 100%;
+    width: 50%;
+    padding: 15px;
+    background-color: #96E5AE;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.ques{
+    font-size: 20px;
+    margin-left: 9px;
+    color: #4D5EA7;
+    font-family: Roboto;
+}
+
+.form_bg {
+    background-color:#eee;
+    color:#666;
+    padding:20px;
+    border-radius:10px;
+    position: absolute;
+    border:1px solid #fff;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 280px;
+}
+
+.align-center {
+    text-align:center;
+}
+
+.comm-div{
+    margin: 35px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    background-color: #a3ffbf;
+    border-bottom: 1px solid black;
+}
+
+.signup{
+    height: 440px;
+    font-size: 1rem;
+    margin-top: 320px;
+    margin-left: 650px;
+}
+
+.ques_input{
+    height: 35px;
+    border-radius: 10px;
+    border-color: lavender;
+    width: 300px;
+    text-align: start;
+    padding: 10px;
+    color: black;
+}
+
+.profile{
+    height: 430px;
+    font-size: 1rem;
+    margin-top: 320px;
+    margin-left: 650px;
+}
+
+.sidenav {
+    font-family: Rubik;
+    font: bolder;
+    height: 100%;
+    width: 195px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 35px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    font-family: Roboto;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 185px;
+    font-size: 23px;
+    padding: 0px 10px;
+    background-color: #f7f7f7;
+  }
+
+  .sidenav p{
+      color: white;
+      padding: 6px 8px 6px 16px;
+      font-size: 23px;
+  }
+
+  .category-check{
+      margin: 15px;
+      margin-top: 20px;
+  }
+
+  .category{
+      font-size: 18px;
+  }
+
+  .what-ques{
+      margin: 15px;
+      margin-bottom: 0px;
+      font-weight: normal;
+      margin-top: 25px;
+      font-size: 25px;
+      display: inline-block;
+  }
+
+  .what-gory{
+    font-weight: normal;
+    margin-top: 25px;
+    font-size: 25px;
+  }
+
+  .Q-A{
+      font-size: 30px;
+  }
+
+  .home{
+    font-size: 23px;
+    background-color: rgb(244, 252, 255);
+    height: 100vh;
+  }
+
+  .login{
+    font-size: 1rem;
+    margin-top: 390px;
+    margin-left: 650px;
+  }
+
+  .profile-side{
+      padding-top: 200px;
+  }
+
+  .user{
+    color: white;
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    }
+
+    .paragraph{
+        padding: 35vh;
+        color: rgb(196, 196, 196);
+    }
+
+    .ask-button{
+        padding: 5px 60px 5px 60px;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+
+    .ques_username{
+        font-size: 15px;
+        margin-bottom: 2px;
+        color: rgb(80, 80, 80);
+        font-family: Rubik;
+        font: bolder;
+    }
+
+    .category_select{
+        margin-left: 0px;
+    }
+
+    .navbar-colour{
+        background-color: #fe7058;
+        border-bottom: 2px solid grey;
+    }
+
+    .nav-item{
+        border-left: 1px solid black;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .image{
+        height: 210px;
+        width: 100%;
+        text-align: right;
+    }
+
+    .ques-div-design{
+
+        background:
+        /*linear-gradient(to right, black 1px, transparent 1px) 0 0,*/
+        linear-gradient(to right, black 1px, transparent 2px) 0 100%,
+        linear-gradient(to left, black 1px, transparent 2px) 100% 0,
+        /*linear-gradient(to left, black 1px, transparent 2px) 100% 100%,*/
+        /*linear-gradient(to bottom, black 1px, transparent 2px) 0 0,*/
+        linear-gradient(to bottom, black 1px, transparent 2px) 100% 0,
+        linear-gradient(to top, black 1px, transparent 2px) 0 100%;
+        /*linear-gradient(to top, black 1px, transparent 2px) 100% 100%;*/
+
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+
+        background-color: #a3ffbf;
+        width: 50%;
+        display: inline-block;
+        margin-left: 35px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+
+    .date-time{
+        margin-bottom: 0;
+        font-size: 13px;
+        text-align: right;
+        color: grey;
+    }
+
+    .question-form{
+
+        background:
+        linear-gradient(to right, black 1px, transparent 2px) 0 0,
+        linear-gradient(to right, black 1px, transparent 2px) 0 100%,
+        linear-gradient(to left, black 1px, transparent 2px) 100% 0,
+        linear-gradient(to left, black 1px, transparent 2px) 100% 100%,
+        linear-gradient(to bottom, black 1px, transparent 2px) 0 0,
+        linear-gradient(to bottom, black 1px, transparent 2px) 100% 0,
+        linear-gradient(to top, black 1px, transparent 2px) 0 100%,
+        linear-gradient(to top, black 1px, transparent 2px) 100% 100%;
+
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+
+        width: 40%;
+        position: sticky;
+        top: 50px;
+        float: right;
+        padding: 20px;
+        margin: 35px;
+        background-color: rgb(240, 239, 239);
+        font-family: Rubik;
+        font: bolder;
+    }
+
+    .nav-link{
+        font-family: Roboto;
+        font: bold;
+    }
+
+    .password-doesnt-match{
+        width: 50%;
+        margin: 50px;
+        padding: 30px;
+        border: 2px solid grey;
+        border-radius: 6px;
+    }
